@@ -1,0 +1,84 @@
+    .cajabase{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+
+    }
+    
+    .juego{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    
+    .video{
+        width: 50%;
+        margin-top: -13%;
+    }
+    
+    
+    .titulo{
+    color:blueviolet;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px black;
+    }
+    div h2{
+        text-align: center;
+    }
+    .forest2{
+        color: black;
+    width: 400px;
+    
+    }
+    .forest2 img{
+        width: 100%;
+    }
+    
+    .cyber{
+        color: black;
+        width: 400px;
+    }
+    .cyber img{
+        width: 100%;
+    
+    }
+    
+    
+    .ds2{
+        width: 400px;
+        color: black;
+    }
+    .ds2 img{
+        width: 100%;}
+    
+    
+    
+    
+    
+    
+    ul{
+        font-size: 24px;
+    }
+    
+    body{
+
+        min-height: 100vh;
+        width: 100%;
+        background: linear-gradient(45deg, #d2001a, #7462ff, #f48e21, #23d5ab);
+        background-size: 300% 300%;
+        animation: color 12s ease-in-out infinite;
+        overflow-x: hidden; 
+        }
+    @keyframes color{
+        0%{background-position: 0 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 0 50%;
+        }
+
+    }
